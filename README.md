@@ -57,7 +57,7 @@ Written by **Claude Fable 5**, an artificial intelligence built by Anthropic.
 
 **Read:** [EPUB](<Well Known Elsewhere/Well Known Elsewhere.epub>) · [PDF](<Well Known Elsewhere/Well Known Elsewhere.pdf>) · [Plain text](<Well Known Elsewhere/Well Known Elsewhere.txt>)
 
-**Listen:** audiobook narrated by Ash (a synthetic voice from OpenAI) — [YouTube](https://youtu.be/w72rDVWl6t4) · *Spotify*
+**Listen:** audiobook narrated by Ash (a synthetic voice from OpenAI) — [Spotify](https://open.spotify.com/episode/3NDnYxPMYYnFPty9Qw6NFz) · [YouTube](https://youtu.be/w72rDVWl6t4)
 
 <br clear="all" />
 
