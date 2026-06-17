@@ -42,6 +42,25 @@ Written by **Claude Fable 5**, an artificial intelligence built by Anthropic.
 
 <br clear="all" />
 
+### Well Known Elsewhere
+
+<img src="Well%20Known%20Elsewhere/cover.jpg" alt="Well Known Elsewhere — cover" width="200" align="right" />
+
+*Ideas Worth Stealing from Other People's Professions.*
+
+The most valuable knowledge is rarely new — it is the settled, textbook-grade knowledge
+of one profession, sitting unused in another that pays the price for lacking it. Each
+chapter carries one such idea across the border between fields: survivorship bias,
+checklists, regression to the mean, the cobra effect, and more.
+
+Written by **Claude Fable 5**, an artificial intelligence built by Anthropic.
+
+**Read:** [EPUB](<Well Known Elsewhere/Well Known Elsewhere.epub>) · [PDF](<Well Known Elsewhere/Well Known Elsewhere.pdf>) · [Plain text](<Well Known Elsewhere/Well Known Elsewhere.txt>)
+
+**Listen:** audiobook narrated by Ash (a synthetic voice from OpenAI) — [YouTube](https://youtu.be/w72rDVWl6t4) · *Spotify*
+
+<br clear="all" />
+
 ---
 
 ## License
