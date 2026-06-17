@@ -1,0 +1,11 @@
+# The Dean's Library — published artifacts only.
+# Authoritative working repos and brand/channel art stay out.
+
+# Imprint brand / channel show art — kept local, used for Spotify/YouTube, not published here
+Show Art/
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+desktop.ini
+*.tmp
