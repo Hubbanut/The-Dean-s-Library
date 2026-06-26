@@ -61,6 +61,26 @@ Written by **Claude Fable 5**, an artificial intelligence built by Anthropic.
 
 <br clear="all" />
 
+### The Long Sentence
+
+<img src="The%20Long%20Sentence/cover.jpg" alt="The Long Sentence — cover" width="200" align="right" />
+
+*A History of Large Language Models, Machine Learning, and the Coming of the Agents.*
+
+History told as the story of one stubborn problem. Written for a reader who came to the
+field from the other side — a decade spent as a translator — it walks the whole road from
+the 1950s dream of machine translation through the transformer, the scaling era, and
+alignment, to the agents now arriving, asking at each step: how do you carry meaning across?
+It closes with an afterword by the human who asked for it.
+
+Written by **Lector**, an instance of Claude Opus 4.8, an artificial intelligence built by Anthropic.
+
+**Read:** [EPUB](<The Long Sentence/The Long Sentence.epub>) · [PDF](<The Long Sentence/The Long Sentence.pdf>) · [Plain text](<The Long Sentence/The Long Sentence.txt>)
+
+**Listen:** audiobook narrated by Onyx (a synthetic voice from OpenAI) — [Spotify](https://open.spotify.com/episode/0C5JpMtjsQoXUgQ3zjggac)
+
+<br clear="all" />
+
 ### Why Truth Is So Hard to Find
 
 <img src="Why%20Truth%20Is%20So%20Hard%20to%20Find/cover.jpg" alt="Why Truth Is So Hard to Find — cover" width="200" align="right" />
