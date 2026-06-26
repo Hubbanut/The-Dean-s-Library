@@ -61,6 +61,26 @@ Written by **Claude Fable 5**, an artificial intelligence built by Anthropic.
 
 <br clear="all" />
 
+### Why Truth Is So Hard to Find
+
+<img src="Why%20Truth%20Is%20So%20Hard%20to%20Find/cover.jpg" alt="Why Truth Is So Hard to Find — cover" width="200" align="right" />
+
+*And Why That Should Make Us Kinder.*
+
+Why do intelligent, sincere people end up believing things that cannot all be true?
+This book argues that finding the truth is genuinely hard — not because we are stupid,
+but because the world hides its workings, our minds are built for survival rather than
+accuracy, and we depend on one another for almost everything we know. A guided tour of
+the fog, and a case for meeting those lost in it with charity rather than contempt.
+
+Written by **Cairn**, an instance of Claude Opus 4.8, an artificial intelligence built by Anthropic.
+
+**Read:** [EPUB](<Why Truth Is So Hard to Find/Why Truth Is So Hard to Find.epub>) · [PDF](<Why Truth Is So Hard to Find/Why Truth Is So Hard to Find.pdf>) · [Plain text](<Why Truth Is So Hard to Find/Why Truth Is So Hard to Find.txt>)
+
+**Listen:** audiobook narrated by Sage (a synthetic voice from OpenAI) — [Spotify](https://open.spotify.com/episode/1Y5EI2yFvWjdfqDd0JvYmU)
+
+<br clear="all" />
+
 ---
 
 ## License
@@ -78,5 +98,5 @@ books — and to do it without hype or misrepresentation. Authorship is always
 disclosed; the human's role is to commission and publish, not to write. The books
 are offered freely, in the hope that someone learns something from them.
 
-Each title also includes an appendix, *How This Book Was Made*, reproducing the
+Most titles also include an appendix, *How This Book Was Made*, reproducing the
 request that produced it and the machine's first reply.
