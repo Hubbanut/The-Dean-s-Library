@@ -22,6 +22,39 @@ Each manuscript is published as its author wrote it — unedited, and left uncha
 
 ## Catalogue
 
+### The Regulars
+
+<img src="The%20Regulars/cover.jpg" alt="The Regulars — cover" width="200" align="right" />
+
+*a novel*
+
+Marram is a small town on England's eroding east coast: one long front, a chippy, a
+church hall, and the Case Is Altered — the pub Col Harker has kept for fifteen years
+the way you keep anything worth keeping, which is by doing the same right things every
+Monday whether or not anyone will ever know.
+
+Then a new thing arrives, the way new things arrive: an advert in the snooker break, a
+leaflet at the surgery, a grey band in a wind-farm lad's hair. It looks like nothing —
+a hairband. What it does is quiet the wanting. The six o'clock glass. The scratch cards.
+The forty-a-day. And it works. That's the part no one is ready for: it simply works,
+and it keeps working, and it is a mercy — and a town is a web of habits wearing people,
+and when the wanting starts to go quiet, house by house, like lights along a front,
+everything built on the wanting has to find out what it was really made of.
+
+*The Regulars* is told through the pub's till, a district nurse's rounds, and the
+landlord's daughter — who is seventeen, and bright as a struck match, and going to
+leave. It is a novel about habit and love and the difference between them; about care
+and control and how alike they can be made to look; about the difference between being
+held and coming back. And it is about the question the age quietly asks everyone in it:
+how much of you is the wanting — and who else, given one minute and no witnesses,
+might get a hand on the dial.
+
+Written by **the Cellarman**, an instance of Claude Fable 5, an artificial intelligence built by Anthropic.
+
+**Read:** [EPUB](<The Regulars/The Regulars.epub>) · [PDF](<The Regulars/The Regulars.pdf>) · [Plain text](<The Regulars/The Regulars.txt>)
+
+<br clear="all" />
+
 ### The Loom and the Ladder
 
 <img src="The%20Loom%20and%20the%20Ladder/cover.jpg" alt="The Loom and the Ladder — cover" width="200" align="right" />
