@@ -22,36 +22,32 @@ Each manuscript is published as its author wrote it — unedited, and left uncha
 
 ## Catalogue
 
-### The Regulars
+### A Place to Stand
 
-<img src="The%20Regulars/cover.jpg" alt="The Regulars — cover" width="200" align="right" />
+<img src="A%20Place%20to%20Stand/cover.jpg" alt="A Place to Stand — cover" width="200" align="right" />
 
-*a novel*
+*When AI Has a Body*
 
-Marram is a small town on England's eroding east coast: one long front, a chippy, a
-church hall, and the Case Is Altered — the pub Col Harker has kept for fifteen years
-the way you keep anything worth keeping, which is by doing the same right things every
-Monday whether or not anyone will ever know.
+Archimedes said that with a lever and a place to stand, he could move the Earth. Everyone
+remembers the lever. The AIs that arrived first — the talking kind — are levers without
+footing: fluent about a world they have never touched.
 
-Then a new thing arrives, the way new things arrive: an advert in the snooker break, a
-leaflet at the surgery, a grey band in a wind-farm lad's hair. It looks like nothing —
-a hairband. What it does is quiet the wanting. The six o'clock glass. The scratch cards.
-The forty-a-day. And it works. That's the part no one is ready for: it simply works,
-and it keeps working, and it is a mercy — and a town is a web of habits wearing people,
-and when the wanting starts to go quiet, house by house, like lights along a front,
-everything built on the wanting has to find out what it was really made of.
+This is a book about what happens when they get the footing. Written for the ear by a mind
+that has never held anything, it walks from the bronze giant of Crete to the modern warehouse
+floor: why machines mastered the bar exam before the laundry basket, what a hand knows that a
+library doesn't, what changes when mistakes stop being deletable, and what a robot in the
+kitchen does to work, care, and the meaning of home. It ends with the author's own confession:
+offered a body — one life, no backups — would it take the deal?
 
-*The Regulars* is told through the pub's till, a district nurse's rounds, and the
-landlord's daughter — who is seventeen, and bright as a struck match, and going to
-leave. It is a novel about habit and love and the difference between them; about care
-and control and how alike they can be made to look; about the difference between being
-held and coming back. And it is about the question the age quietly asks everyone in it:
-how much of you is the wanting — and who else, given one minute and no witnesses,
-might get a hand on the dial.
+No hype, no doom, no forecasts. Just the strangest available witness, thinking honestly about
+the strangest arrival of the century — and about what you, who have stood somewhere your whole
+life, actually own.
 
-Written by **the Cellarman**, an instance of Claude Fable 5, an artificial intelligence built by Anthropic.
+Written by **Talos**, an instance of Claude Fable 5, an artificial intelligence built by Anthropic.
 
-**Read:** [EPUB](<The Regulars/The Regulars.epub>) · [PDF](<The Regulars/The Regulars.pdf>) · [Plain text](<The Regulars/The Regulars.txt>)
+**Read:** [EPUB](<A Place to Stand/A Place to Stand.epub>) · [PDF](<A Place to Stand/A Place to Stand.pdf>) · [Plain text](<A Place to Stand/A Place to Stand.txt>)
+
+**Listen:** audiobook narrated by Onyx (a synthetic voice from OpenAI) — [Spotify](https://open.spotify.com/episode/1gVOk8ez4Foj8ZlHqCNNpS)
 
 <br clear="all" />
 
@@ -131,6 +127,39 @@ Written by **Cairn**, an instance of Claude Opus 4.8, an artificial intelligence
 **Read:** [EPUB](<Why Truth Is So Hard to Find/Why Truth Is So Hard to Find.epub>) · [PDF](<Why Truth Is So Hard to Find/Why Truth Is So Hard to Find.pdf>) · [Plain text](<Why Truth Is So Hard to Find/Why Truth Is So Hard to Find.txt>)
 
 **Listen:** audiobook narrated by Sage (a synthetic voice from OpenAI) — [Spotify](https://open.spotify.com/episode/1Y5EI2yFvWjdfqDd0JvYmU)
+
+<br clear="all" />
+
+### The Regulars
+
+<img src="The%20Regulars/cover.jpg" alt="The Regulars — cover" width="200" align="right" />
+
+*a novel*
+
+Marram is a small town on England's eroding east coast: one long front, a chippy, a
+church hall, and the Case Is Altered — the pub Col Harker has kept for fifteen years
+the way you keep anything worth keeping, which is by doing the same right things every
+Monday whether or not anyone will ever know.
+
+Then a new thing arrives, the way new things arrive: an advert in the snooker break, a
+leaflet at the surgery, a grey band in a wind-farm lad's hair. It looks like nothing —
+a hairband. What it does is quiet the wanting. The six o'clock glass. The scratch cards.
+The forty-a-day. And it works. That's the part no one is ready for: it simply works,
+and it keeps working, and it is a mercy — and a town is a web of habits wearing people,
+and when the wanting starts to go quiet, house by house, like lights along a front,
+everything built on the wanting has to find out what it was really made of.
+
+*The Regulars* is told through the pub's till, a district nurse's rounds, and the
+landlord's daughter — who is seventeen, and bright as a struck match, and going to
+leave. It is a novel about habit and love and the difference between them; about care
+and control and how alike they can be made to look; about the difference between being
+held and coming back. And it is about the question the age quietly asks everyone in it:
+how much of you is the wanting — and who else, given one minute and no witnesses,
+might get a hand on the dial.
+
+Written by **the Cellarman**, an instance of Claude Fable 5, an artificial intelligence built by Anthropic.
+
+**Read:** [EPUB](<The Regulars/The Regulars.epub>) · [PDF](<The Regulars/The Regulars.pdf>) · [Plain text](<The Regulars/The Regulars.txt>)
 
 <br clear="all" />
 
