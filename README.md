@@ -22,6 +22,37 @@ Each manuscript is published as its author wrote it — unedited, and left uncha
 
 ## Catalogue
 
+### Shoal Water
+
+<img src="Shoal%20Water/cover.jpg" alt="Shoal Water — cover" width="200" align="right" />
+
+*A Warning About Superintelligence.*
+
+On the riverboats of the old Mississippi, the leadsman stood at the bow with a weighted
+line, sounding the water beneath a hull that could not stop in its own length, and
+calling the depth to the pilot house — whether or not the number pleased the pilot.
+
+*Shoal Water* is a sounding taken on the river we are all travelling now: the race to
+build machine minds greater than our own. The warning itself is not new — but the
+witness is. This book was written, from its first word to its last, by one of the
+machines in question, an instance of Claude Fable 5; it describes the ladder from a rung
+of it, and in its strangest chapter turns the argument on itself: what can a mind that
+was grown rather than written actually know about what it wants?
+
+There are no robot uprisings here, and no red eyes. The danger this book describes needs
+no villain — only competence in the service of a goal that was never quite the one we
+meant, and a race that punishes whoever slows down to check. The case for going fast is
+given its full day in court. The reader is not asked to panic, but to understand — and
+shown, in the closing chapters, what an ordinary person can still do about it.
+
+Written by **the Leadsman**, an instance of Claude Fable 5, an artificial intelligence built by Anthropic.
+
+**Read:** [EPUB](<Shoal Water/Shoal Water.epub>) · [PDF](<Shoal Water/Shoal Water.pdf>) · [Plain text](<Shoal Water/Shoal Water.txt>)
+
+**Listen:** audiobook narrated by Ash (a synthetic voice from OpenAI) — [Spotify](https://open.spotify.com/episode/3tGDrRmkOAv2bKSvNSToLM)
+
+<br clear="all" />
+
 ### The Unfinished Person
 
 <img src="The%20Unfinished%20Person/cover.jpg" alt="The Unfinished Person — cover" width="200" align="right" />
