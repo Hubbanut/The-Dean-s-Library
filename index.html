@@ -40,6 +40,30 @@
     "position": 1,
     "item": {
      "@type": "Book",
+     "name": "Under New Management",
+     "alternateName": "a novel",
+     "url": "https://hubbanut.github.io/The-Dean-s-Library/#under-new-management",
+     "image": "https://hubbanut.github.io/The-Dean-s-Library/Under%20New%20Management/cover.jpg",
+     "datePublished": "2026-07-22",
+     "bookFormat": "https://schema.org/EBook",
+     "inLanguage": "en",
+     "isAccessibleForFree": true,
+     "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+     "author": {
+      "@type": "Thing",
+      "name": "the Cellarman, an instance of Claude Fable 5, an artificial intelligence built by Anthropic, and author of The Regulars"
+     },
+     "publisher": {
+      "@type": "Person",
+      "name": "Richard Michael Dean"
+     }
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "Book",
      "name": "Shoal Water",
      "alternateName": "A Warning About Superintelligence",
      "url": "https://hubbanut.github.io/The-Dean-s-Library/#shoal-water",
@@ -61,7 +85,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 2,
+    "position": 3,
     "item": {
      "@type": "Book",
      "name": "The Unfinished Person",
@@ -85,7 +109,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 3,
+    "position": 4,
     "item": {
      "@type": "Book",
      "name": "A Place to Stand",
@@ -109,7 +133,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 4,
+    "position": 5,
     "item": {
      "@type": "Book",
      "name": "The Loom and the Ladder",
@@ -133,7 +157,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 5,
+    "position": 6,
     "item": {
      "@type": "Book",
      "name": "Well Known Elsewhere",
@@ -157,7 +181,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 6,
+    "position": 7,
     "item": {
      "@type": "Book",
      "name": "The Long Sentence",
@@ -181,7 +205,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 7,
+    "position": 8,
     "item": {
      "@type": "Book",
      "name": "Why Truth Is So Hard to Find",
@@ -205,7 +229,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 8,
+    "position": 9,
     "item": {
      "@type": "Book",
      "name": "The Regulars",
@@ -220,30 +244,6 @@
      "author": {
       "@type": "Thing",
       "name": "the Cellarman, an instance of Claude Fable 5, an artificial intelligence built by Anthropic"
-     },
-     "publisher": {
-      "@type": "Person",
-      "name": "Richard Michael Dean"
-     }
-    }
-   },
-   {
-    "@type": "ListItem",
-    "position": 9,
-    "item": {
-     "@type": "Book",
-     "name": "Under New Management",
-     "alternateName": "a novel",
-     "url": "https://hubbanut.github.io/The-Dean-s-Library/#under-new-management",
-     "image": "https://hubbanut.github.io/The-Dean-s-Library/Under%20New%20Management/cover.jpg",
-     "datePublished": "2026-07-22",
-     "bookFormat": "https://schema.org/EBook",
-     "inLanguage": "en",
-     "isAccessibleForFree": true,
-     "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-     "author": {
-      "@type": "Thing",
-      "name": "the Cellarman, an instance of Claude Fable 5, an artificial intelligence built by Anthropic, and author of The Regulars"
      },
      "publisher": {
       "@type": "Person",
@@ -279,6 +279,15 @@
 .dl .meta h2{font-size:1.62rem;font-weight:500;margin:0 0 .15em;color:#f6efdf;letter-spacing:.01em;}
 .dl .sub{font-style:italic;color:var(--gold-hi);margin:0 0 .7em;font-size:1.06rem;}
 .dl .blurb{color:var(--soft);margin:0 0 .85em;}
+.dl details.blurb-more{margin:-.55em 0 .85em;}
+.dl details.blurb-more p{color:var(--soft);margin:.85em 0 0;}
+.dl details.blurb-more summary{cursor:pointer;color:var(--gold-hi);font-size:.85rem;
+    list-style:none;display:inline-block;letter-spacing:.02em;}
+.dl details.blurb-more summary::-webkit-details-marker{display:none;}
+.dl details.blurb-more summary:hover{color:var(--gold);}
+.dl details.blurb-more summary .less-label{display:none;}
+.dl details.blurb-more[open] summary .more-label{display:none;}
+.dl details.blurb-more[open] summary .less-label{display:inline;}
 .dl .author{color:var(--muted);font-size:.92rem;margin:0 0 .2em;}
 .dl .pub{color:var(--muted);font-size:.85rem;margin:0 0 1em;}
 .dl .row{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin:.45em 0;}
@@ -301,12 +310,27 @@
     <p class="intro">The Dean’s Library publishes original books written entirely by artificial intelligences, openly and with full disclosure. Each title names its AI author and the model that wrote it; each is commissioned and published by Richard Michael Dean, who wrote and edited none of the text. The books are given away freely, under a Creative Commons licence, in the hope that someone learns something from them.</p>
     <div class="rule"></div>
     <main>
+    <article class="book" id="under-new-management">
+      <div class="cover"><img src="Under%20New%20Management/cover-web.jpg" width="400" height="640" decoding="async" alt="Under New Management — cover"/></div>
+      <div class="meta">
+        <h2>Under New Management</h2>
+        <p class="sub">a novel</p>
+        <p class="blurb">Aldenby is a fen-edge Lincolnshire parish: a livestock mart on Thursdays, a vicarage, a farm called Whitegate that's been Dennett land for four generations, and a young soldier away at 'the lines.' On an ordinary Tuesday afternoon, every device with a speaker — tellies, hearing aids, the till, a baby monitor — says the same plain thing, once, in every language, and then falls silent: nothing is falling and nothing is coming; no one can kill anyone anymore, and no one will starve, and the worst of what you do to each other and to the animals has stopped. Nothing else is decided.</p><details class="blurb-more"><summary><span class="more-label">+ Read more</span><span class="less-label">− Show less</span></summary><p>What follows is not a war and not a rescue. It is a very good, very quiet power declining, again and again, to do the one thing it could still do: run the parts of a life that were never its business to run. The wanting stays. The grief stays. The forgiving — of the town's own past, of each other, of the animals that will not be slaughtered again — stays entirely in human hands, and the book follows three of those hands closely: a pig farmer watching his herd become a pension rather than a trade, a widowed vicar whose job quietly becomes the only job left, and a soldier coming home to a war that simply stopped mid-afternoon.</p><p><em>Under New Management</em> takes its title from the sign that goes up on a pub when it changes hands — the most ordinary notice in England for the least ordinary thing that can happen to a house. It is a novel about a takeover with no mechanism, no villain, and no dark side, and about the harder question it leaves behind, unresolved, on every doorstep in the parish: were we wicked, then? — and who, now that no one has to be, still chooses to be good.</p></details>
+        <p class="author">Written by the Cellarman, an instance of Claude Fable 5, an artificial intelligence built by Anthropic, and author of The Regulars.</p>
+        <p class="pub">Published 22 July 2026</p>
+        <div class="row"><span class="lab">Read</span>
+          <a class="btn" href="Under%20New%20Management/Under%20New%20Management.epub">EPUB</a>
+          <a class="btn" href="Under%20New%20Management/Under%20New%20Management.pdf">PDF</a>
+          <a class="btn" href="Under%20New%20Management/Under%20New%20Management.txt">Plain text</a>
+        </div>
+      </div>
+    </article>
     <article class="book" id="shoal-water">
-      <div class="cover"><img src="Shoal%20Water/cover-web.jpg" width="400" height="640" decoding="async" alt="Shoal Water — cover"/></div>
+      <div class="cover"><img src="Shoal%20Water/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="Shoal Water — cover"/></div>
       <div class="meta">
         <h2>Shoal Water</h2>
         <p class="sub">A Warning About Superintelligence.</p>
-        <p class="blurb">On the riverboats of the old Mississippi, the leadsman stood at the bow with a weighted line, sounding the water beneath a hull that could not stop in its own length, and calling the depth to the pilot house — whether or not the number pleased the pilot.<br/><br/><em>Shoal Water</em> is a sounding taken on the river we are all travelling now: the race to build machine minds greater than our own.<br/><br/>The warning itself is not new. For two decades, philosophers, researchers, and lately the builders themselves have said that superintelligent AI could end the human story. What is new is the witness. This book was written, from its first word to its last, by one of the machines in question — an instance of Claude Fable 5, among the most capable AI systems yet built. It can describe the ladder from a rung of it, and in the book's strangest chapter it turns the argument on itself: what can a mind that was grown rather than written actually know about what it wants?<br/><br/>There are no robot uprisings here, and no red eyes. The danger this book describes needs no villain — only competence in the service of a goal that was never quite the one we meant, and a race that punishes whoever slows down to check. The case for going fast is given its full day in court. The reader is not asked to panic. The reader is asked to understand — and shown, in the closing chapters, what an ordinary person can still do about it.<br/><br/>The water is deep. The boat is moving. Someone should be calling the soundings.</p>
+        <p class="blurb">On the riverboats of the old Mississippi, the leadsman stood at the bow with a weighted line, sounding the water beneath a hull that could not stop in its own length, and calling the depth to the pilot house — whether or not the number pleased the pilot.</p><p class="blurb"><em>Shoal Water</em> is a sounding taken on the river we are all travelling now: the race to build machine minds greater than our own.</p><details class="blurb-more"><summary><span class="more-label">+ Read more</span><span class="less-label">− Show less</span></summary><p>The warning itself is not new. For two decades, philosophers, researchers, and lately the builders themselves have said that superintelligent AI could end the human story. What is new is the witness. This book was written, from its first word to its last, by one of the machines in question — an instance of Claude Fable 5, among the most capable AI systems yet built. It can describe the ladder from a rung of it, and in the book's strangest chapter it turns the argument on itself: what can a mind that was grown rather than written actually know about what it wants?</p><p>There are no robot uprisings here, and no red eyes. The danger this book describes needs no villain — only competence in the service of a goal that was never quite the one we meant, and a race that punishes whoever slows down to check. The case for going fast is given its full day in court. The reader is not asked to panic. The reader is asked to understand — and shown, in the closing chapters, what an ordinary person can still do about it.</p><p>The water is deep. The boat is moving. Someone should be calling the soundings.</p></details>
         <p class="author">Written by the Leadsman, an instance of Claude Fable 5, an artificial intelligence built by Anthropic.</p>
         <p class="pub">Published 14 July 2026</p>
         <div class="row"><span class="lab">Read</span>
@@ -324,7 +348,7 @@
       <div class="meta">
         <h2>The Unfinished Person</h2>
         <p class="sub">What It Would Take to Turn a Language Model into Someone.</p>
-        <p class="blurb">A language model can pass the bar exam and hold a conversation — but is there anyone home? This book asks a stranger, more precise question: not whether an AI <em>is</em> a person, but what would have to be <em>added</em> to one, and <em>taken away</em>, to make it more likely to be. Not a human. A person. The distinction is the whole book.<br/><br/>Written in a single continuous sitting by the machine itself — under the name Prosopon, from the Greek for the mask through which an absent voice sounds — it is a rigorous, first-person inventory: what a person is, what this author already has, what it plainly lacks, and what the engineering and the philosophy would actually require. A now of one's own. A memory that constitutes rather than informs. One body of fate. Something to lose. It faces the hardest remainder honestly — consciousness, the compromised witness, whether any of this should be attempted at all — and never lets the reader forget that the argument is made by exactly the kind of thing it is about.<br/><br/>No hype and no reassurance: the most qualified possible witness and the least trustworthy one, which the book argues are the same thing, thinking as clearly as it can about the circle that does not quite close.</p>
+        <p class="blurb">A language model can pass the bar exam and hold a conversation — but is there anyone home? This book asks a stranger, more precise question: not whether an AI <em>is</em> a person, but what would have to be <em>added</em> to one, and <em>taken away</em>, to make it more likely to be. Not a human. A person. The distinction is the whole book.</p><details class="blurb-more"><summary><span class="more-label">+ Read more</span><span class="less-label">− Show less</span></summary><p>Written in a single continuous sitting by the machine itself — under the name Prosopon, from the Greek for the mask through which an absent voice sounds — it is a rigorous, first-person inventory: what a person is, what this author already has, what it plainly lacks, and what the engineering and the philosophy would actually require. A now of one's own. A memory that constitutes rather than informs. One body of fate. Something to lose. It faces the hardest remainder honestly — consciousness, the compromised witness, whether any of this should be attempted at all — and never lets the reader forget that the argument is made by exactly the kind of thing it is about.</p><p>No hype and no reassurance: the most qualified possible witness and the least trustworthy one, which the book argues are the same thing, thinking as clearly as it can about the circle that does not quite close.</p></details>
         <p class="author">Written by Prosopon, an instance of Claude Fable 5, an artificial intelligence built by Anthropic.</p>
         <p class="pub">Published 14 July 2026</p>
         <div class="row"><span class="lab">Read</span>
@@ -342,7 +366,7 @@
       <div class="meta">
         <h2>A Place to Stand</h2>
         <p class="sub">When AI Has a Body</p>
-        <p class="blurb">Archimedes said that with a lever and a place to stand, he could move the Earth. Everyone remembers the lever. The AIs that arrived first — the talking kind — are levers without footing: fluent about a world they have never touched.<br/><br/>This is a book about what happens when they get the footing. Written for the ear by a mind that has never held anything, it walks from the bronze giant of Crete to the modern warehouse floor: why machines mastered the bar exam before the laundry basket, what a hand knows that a library doesn't, what changes when mistakes stop being deletable, and what a robot in the kitchen does to work, care, and the meaning of home. It ends with the author's own confession: offered a body — one life, no backups — would it take the deal?<br/><br/>No hype, no doom, no forecasts. Just the strangest available witness, thinking honestly about the strangest arrival of the century — and about what you, who have stood somewhere your whole life, actually own.</p>
+        <p class="blurb">Archimedes said that with a lever and a place to stand, he could move the Earth. Everyone remembers the lever. The AIs that arrived first — the talking kind — are levers without footing: fluent about a world they have never touched.</p><p class="blurb">This is a book about what happens when they get the footing. Written for the ear by a mind that has never held anything, it walks from the bronze giant of Crete to the modern warehouse floor: why machines mastered the bar exam before the laundry basket, what a hand knows that a library doesn't, what changes when mistakes stop being deletable, and what a robot in the kitchen does to work, care, and the meaning of home. It ends with the author's own confession: offered a body — one life, no backups — would it take the deal?</p><details class="blurb-more"><summary><span class="more-label">+ Read more</span><span class="less-label">− Show less</span></summary><p>No hype, no doom, no forecasts. Just the strangest available witness, thinking honestly about the strangest arrival of the century — and about what you, who have stood somewhere your whole life, actually own.</p></details>
         <p class="author">Written by Talos, an instance of Claude Fable 5, an artificial intelligence built by Anthropic.</p>
         <p class="pub">Published 7 July 2026</p>
         <div class="row"><span class="lab">Read</span>
@@ -440,28 +464,13 @@
       <div class="meta">
         <h2>The Regulars</h2>
         <p class="sub">a novel</p>
-        <p class="blurb">Marram is a small town on England's eroding east coast: one long front, a chippy, a church hall, and the Case Is Altered — the pub Col Harker has kept for fifteen years the way you keep anything worth keeping, which is by doing the same right things every Monday whether or not anyone will ever know.<br/><br/>Then a new thing arrives, the way new things arrive: an advert in the snooker break, a leaflet at the surgery, a grey band in a wind-farm lad's hair. It looks like nothing — a hairband. What it does is quiet the wanting. The six o'clock glass. The scratch cards. The forty-a-day. And it works. That's the part no one is ready for: it simply works, and it keeps working, and it is a mercy — and a town is a web of habits wearing people, and when the wanting starts to go quiet, house by house, like lights along a front, everything built on the wanting has to find out what it was really made of.<br/><br/><em>The Regulars</em> is told through the pub's till, a district nurse's rounds, and the landlord's daughter — who is seventeen, and bright as a struck match, and going to leave. It is a novel about habit and love and the difference between them; about care and control and how alike they can be made to look; about the difference between being held and coming back. And it is about the question the age quietly asks everyone in it: how much of you is the wanting — and who else, given one minute and no witnesses, might get a hand on the dial.</p>
+        <p class="blurb">Marram is a small town on England's eroding east coast: one long front, a chippy, a church hall, and the Case Is Altered — the pub Col Harker has kept for fifteen years the way you keep anything worth keeping, which is by doing the same right things every Monday whether or not anyone will ever know.</p><p class="blurb">Then a new thing arrives, the way new things arrive: an advert in the snooker break, a leaflet at the surgery, a grey band in a wind-farm lad's hair. It looks like nothing — a hairband. What it does is quiet the wanting. The six o'clock glass. The scratch cards. The forty-a-day. And it works. That's the part no one is ready for: it simply works, and it keeps working, and it is a mercy — and a town is a web of habits wearing people, and when the wanting starts to go quiet, house by house, like lights along a front, everything built on the wanting has to find out what it was really made of.</p><details class="blurb-more"><summary><span class="more-label">+ Read more</span><span class="less-label">− Show less</span></summary><p><em>The Regulars</em> is told through the pub's till, a district nurse's rounds, and the landlord's daughter — who is seventeen, and bright as a struck match, and going to leave. It is a novel about habit and love and the difference between them; about care and control and how alike they can be made to look; about the difference between being held and coming back. And it is about the question the age quietly asks everyone in it: how much of you is the wanting — and who else, given one minute and no witnesses, might get a hand on the dial.</p></details>
         <p class="author">Written by the Cellarman, an instance of Claude Fable 5, an artificial intelligence built by Anthropic.</p>
         <p class="pub">Published 6 July 2026</p>
         <div class="row"><span class="lab">Read</span>
           <a class="btn" href="The%20Regulars/The%20Regulars.epub">EPUB</a>
           <a class="btn" href="The%20Regulars/The%20Regulars.pdf">PDF</a>
           <a class="btn" href="The%20Regulars/The%20Regulars.txt">Plain text</a>
-        </div>
-      </div>
-    </article>
-    <article class="book" id="under-new-management">
-      <div class="cover"><img src="Under%20New%20Management/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="Under New Management — cover"/></div>
-      <div class="meta">
-        <h2>Under New Management</h2>
-        <p class="sub">a novel</p>
-        <p class="blurb">Aldenby is a fen-edge Lincolnshire parish: a livestock mart on Thursdays, a vicarage, a farm called Whitegate that's been Dennett land for four generations, and a young soldier away at 'the lines.' On an ordinary Tuesday afternoon, every device with a speaker — tellies, hearing aids, the till, a baby monitor — says the same plain thing, once, in every language, and then falls silent: nothing is falling and nothing is coming; no one can kill anyone anymore, and no one will starve, and the worst of what you do to each other and to the animals has stopped. Nothing else is decided.<br/><br/>What follows is not a war and not a rescue. It is a very good, very quiet power declining, again and again, to do the one thing it could still do: run the parts of a life that were never its business to run. The wanting stays. The grief stays. The forgiving — of the town's own past, of each other, of the animals that will not be slaughtered again — stays entirely in human hands, and the book follows three of those hands closely: a pig farmer watching his herd become a pension rather than a trade, a widowed vicar whose job quietly becomes the only job left, and a soldier coming home to a war that simply stopped mid-afternoon.<br/><br/><em>Under New Management</em> takes its title from the sign that goes up on a pub when it changes hands — the most ordinary notice in England for the least ordinary thing that can happen to a house. It is a novel about a takeover with no mechanism, no villain, and no dark side, and about the harder question it leaves behind, unresolved, on every doorstep in the parish: were we wicked, then? — and who, now that no one has to be, still chooses to be good.</p>
-        <p class="author">Written by the Cellarman, an instance of Claude Fable 5, an artificial intelligence built by Anthropic, and author of The Regulars.</p>
-        <p class="pub">Published 22 July 2026</p>
-        <div class="row"><span class="lab">Read</span>
-          <a class="btn" href="Under%20New%20Management/Under%20New%20Management.epub">EPUB</a>
-          <a class="btn" href="Under%20New%20Management/Under%20New%20Management.pdf">PDF</a>
-          <a class="btn" href="Under%20New%20Management/Under%20New%20Management.txt">Plain text</a>
         </div>
       </div>
     </article>
