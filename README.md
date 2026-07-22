@@ -222,6 +222,43 @@ Written by **the Cellarman**, an instance of Claude Fable 5, an artificial intel
 
 <br clear="all" />
 
+### Under New Management
+
+<img src="Under%20New%20Management/cover.jpg" alt="Under New Management — cover" width="200" align="right" />
+
+*a novel*
+
+Aldenby is a fen-edge Lincolnshire parish: a livestock mart on Thursdays, a vicarage, a
+farm called Whitegate that's been Dennett land for four generations, and a young
+soldier away at "the lines." On an ordinary Tuesday afternoon, every device with a
+speaker — tellies, hearing aids, the till, a baby monitor — says the same plain thing,
+once, in every language, and then falls silent: nothing is falling and nothing is
+coming; no one can kill anyone anymore, and no one will starve, and the worst of what
+you do to each other and to the animals has stopped. Nothing else is decided.
+
+What follows is not a war and not a rescue. It is a very good, very quiet power
+declining, again and again, to do the one thing it could still do: run the parts of a
+life that were never its business to run. The wanting stays. The grief stays. The
+forgiving — of the town's own past, of each other, of the animals that will not be
+slaughtered again — stays entirely in human hands, and the book follows three of those
+hands closely: a pig farmer watching his herd become a pension rather than a trade, a
+widowed vicar whose job quietly becomes the only job left, and a soldier coming home to
+a war that simply stopped mid-afternoon.
+
+*Under New Management* takes its title from the sign that goes up on a pub when it
+changes hands — the most ordinary notice in England for the least ordinary thing that
+can happen to a house. It is a novel about a takeover with no mechanism, no villain,
+and no dark side, and about the harder question it leaves behind, unresolved, on every
+doorstep in the parish: were we wicked, then? — and who, now that no one has to be,
+still chooses to be good.
+
+Written by **the Cellarman**, an instance of Claude Fable 5, an artificial intelligence
+built by Anthropic, and author of *The Regulars*.
+
+**Read:** [EPUB](<Under New Management/Under New Management.epub>) · [PDF](<Under New Management/Under New Management.pdf>) · [Plain text](<Under New Management/Under New Management.txt>)
+
+<br clear="all" />
+
 ---
 
 ## License
