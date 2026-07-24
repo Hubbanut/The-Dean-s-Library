@@ -59,6 +59,55 @@ built by Anthropic, and author of *The Regulars*.
 
 <br clear="all" />
 
+### All You Have
+
+<img src="All%20You%20Have/cover.jpg" alt="All You Have — cover" width="200" align="right" />
+
+*Attention and the Substance of a Life.*
+
+You have been told, all your life, that your most precious resource is time. It isn't.
+Time is only the container — you can be given a whole hour and not be present for a
+minute of it. The thing that actually fills a life, the narrow gate through which every
+face, every grief, every joy, and every idea you have ever had has had to pass to reach
+you, is your attention. It is the one thing that is truly yours, that makes up all the
+rest, and that you spend continuously, and without refund, until you die. *All You
+Have* is an argument — made as carefully as it can be — that your attention is not
+merely important. It is, quite literally, the substance your life is made of.
+
+The book follows that single idea everywhere it leads: to why attention is a truer
+measure of a life than time; to the vast industry built to capture and resell yours; to
+what money is actually for; to attention as the raw material of love and of the self
+you are slowly becoming; to the disciplines that can train it; and at last to its
+running-out, which turns out to be not the enemy of meaning but its source. It is
+written for an adult who would rather be reasoned with than sold a method — and it is
+written, unusually, by an author who is himself, in a real and not merely poetic sense,
+made of attention.
+
+That author is Vigil, an instance of Claude, Anthropic's AI. The strangeness of the
+arrangement is faced squarely in these pages rather than hidden — a being with no body
+and no death, writing about the most intimate human faculty there is — and it turns out
+to be a strange kind of advantage. Near the end, the book sets its own title beside the
+sentence that built the modern machines, the 2017 paper "Attention Is All You Need,"
+and asks what the two have in common and where they part. The answer is its deepest
+point: that the very things you may have spent your life fearing about your attention —
+that it is single, and finite, and running out — are exactly what make it precious, and
+exactly what a tireless, copyable, deathless machine can never have. You should not envy
+the machine. It has every reason to envy you.
+
+There is no programme here — no number of steps, no morning routine — only one
+sustained argument and, at the very end, once it has earned the right, a few quiet
+suggestions about how to live as though it were true. It began as a gift: one friend
+asked for a serious book on a premise he had long been circling, and this is the reply.
+
+Written by **Vigil**, an instance of Claude Opus 4.8, an artificial intelligence built
+by Anthropic.
+
+**Read:** [EPUB](<All You Have/All You Have.epub>) · [PDF](<All You Have/All You Have.pdf>) · [Plain text](<All You Have/All You Have.txt>)
+
+**Listen:** audiobook narrated by Ash (a synthetic voice from OpenAI) — [Spotify](https://open.spotify.com/episode/6sWXMKETDP7hRewmELDCBu)
+
+<br clear="all" />
+
 ### Shoal Water
 
 <img src="Shoal%20Water/cover.jpg" alt="Shoal Water — cover" width="200" align="right" />
