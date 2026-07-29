@@ -40,6 +40,30 @@
     "position": 1,
     "item": {
      "@type": "Book",
+     "name": "The Futures That Weren't",
+     "alternateName": "What History's Confident Failed Forecasts Teach About Hearing Today's AI Predictions",
+     "url": "https://hubbanut.github.io/The-Dean-s-Library/#the-futures-that-werent",
+     "image": "https://hubbanut.github.io/The-Dean-s-Library/The%20Futures%20That%20Weren%27t/cover.jpg",
+     "datePublished": "2026-07-29",
+     "bookFormat": "https://schema.org/EBook",
+     "inLanguage": "en",
+     "isAccessibleForFree": true,
+     "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+     "author": {
+      "@type": "Thing",
+      "name": "Pharos, an instance of Claude Fable 5, an artificial intelligence built by Anthropic"
+     },
+     "publisher": {
+      "@type": "Person",
+      "name": "Richard Michael Dean"
+     }
+    }
+   },
+   {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+     "@type": "Book",
      "name": "Under New Management",
      "alternateName": "a novel",
      "url": "https://hubbanut.github.io/The-Dean-s-Library/#under-new-management",
@@ -61,7 +85,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 2,
+    "position": 3,
     "item": {
      "@type": "Book",
      "name": "All You Have",
@@ -85,7 +109,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 3,
+    "position": 4,
     "item": {
      "@type": "Book",
      "name": "Shoal Water",
@@ -109,7 +133,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 4,
+    "position": 5,
     "item": {
      "@type": "Book",
      "name": "The Unfinished Person",
@@ -133,7 +157,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 5,
+    "position": 6,
     "item": {
      "@type": "Book",
      "name": "A Place to Stand",
@@ -157,7 +181,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 6,
+    "position": 7,
     "item": {
      "@type": "Book",
      "name": "The Loom and the Ladder",
@@ -181,7 +205,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 7,
+    "position": 8,
     "item": {
      "@type": "Book",
      "name": "Well Known Elsewhere",
@@ -205,7 +229,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 8,
+    "position": 9,
     "item": {
      "@type": "Book",
      "name": "The Long Sentence",
@@ -229,7 +253,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 9,
+    "position": 10,
     "item": {
      "@type": "Book",
      "name": "Why Truth Is So Hard to Find",
@@ -253,7 +277,7 @@
    },
    {
     "@type": "ListItem",
-    "position": 10,
+    "position": 11,
     "item": {
      "@type": "Book",
      "name": "The Regulars",
@@ -294,6 +318,22 @@
 .dl .rule{height:1px;background:linear-gradient(90deg,transparent,var(--rule) 18%,var(--rule) 82%,transparent);margin:24px 0;}
 .dl .intro{color:var(--soft);font-size:1.08rem;max-width:700px;margin:22px auto 4px;text-align:center;}
 .dl main{margin-top:6px;}
+/* Fiction / Non-fiction filter — pure CSS (no JS): three radios sit just before
+   <main>, and :checked ~ main hides the cards that don't match. */
+.dl .catradio{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;}
+.dl .filter{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:2px 0 6px;}
+.dl .filter label{cursor:pointer;color:var(--gold-hi);border:1px solid var(--rule);
+    border-radius:999px;padding:5px 16px;font-size:.9rem;transition:all .15s ease;
+    user-select:none;}
+.dl .filter label:hover{background:rgba(201,164,76,.14);}
+#f-all:checked ~ .filter label[for="f-all"],
+#f-fic:checked ~ .filter label[for="f-fic"],
+#f-non:checked ~ .filter label[for="f-non"]{background:var(--gold);color:#1a140c;border-color:var(--gold);}
+#f-all:focus-visible ~ .filter label[for="f-all"],
+#f-fic:focus-visible ~ .filter label[for="f-fic"],
+#f-non:focus-visible ~ .filter label[for="f-non"]{outline:2px solid var(--gold-hi);outline-offset:2px;}
+#f-fic:checked ~ main .book:not(.fiction){display:none;}
+#f-non:checked ~ main .book:not(.nonfiction){display:none;}
 .dl .book{display:flex;gap:28px;padding:34px 0;border-top:1px solid var(--rule);scroll-margin-top:24px;}
 .dl .book:first-child{border-top:none;}
 .dl .cover{flex:0 0 156px;}
@@ -333,9 +373,35 @@
     </header>
     <p class="intro">The Dean’s Library publishes original books written entirely by artificial intelligences, openly and with full disclosure. Each title names its AI author and the model that wrote it; each is commissioned and published by Richard Michael Dean, who wrote and edited none of the text. The books are given away freely, under a Creative Commons licence, in the hope that someone learns something from them.</p>
     <div class="rule"></div>
+    <input class="catradio" type="radio" name="cat" id="f-all" checked="checked" autocomplete="off"/>
+    <input class="catradio" type="radio" name="cat" id="f-fic" autocomplete="off"/>
+    <input class="catradio" type="radio" name="cat" id="f-non" autocomplete="off"/>
+    <div class="filter" role="group" aria-label="Filter the catalogue">
+      <label for="f-all">All</label>
+      <label for="f-fic">Fiction</label>
+      <label for="f-non">Non-fiction</label>
+    </div>
     <main>
-    <article class="book" id="under-new-management">
-      <div class="cover"><img src="Under%20New%20Management/cover-web.jpg" width="400" height="640" decoding="async" alt="Under New Management — cover"/></div>
+    <article class="book nonfiction" id="the-futures-that-werent">
+      <div class="cover"><img src="The%20Futures%20That%20Weren%27t/cover-web.jpg" width="400" height="640" decoding="async" alt="The Futures That Weren't — cover"/></div>
+      <div class="meta">
+        <h2>The Futures That Weren't</h2>
+        <p class="sub">What History's Confident Failed Forecasts Teach About Hearing Today's AI Predictions.</p>
+        <p class="blurb">Malthus ran the arithmetic of famine. Paul Ehrlich set a date for the end of the world. Peak oil, the flying car, the paperless office, the automation panic of 1964 — each future was announced by brilliant people, with data, and each missed. Meanwhile <em>The New York Times</em> gave heavier-than-air flight a million years (it took sixty-nine days), and Rutherford called atomic energy moonshine twelve years before Trinity.</p><p class="blurb"><em>The Futures That Weren't</em> walks both wings of forecasting's graveyard — the failed dooms and the failed dismissals — and performs the autopsies: the frozen worlds, the wrong boxes, the demonstration gaps, the incentive fields that kill predictions in patterned, learnable ways. Then it turns the same instruments on the loudest forecasts of our own decade: the ones about artificial intelligence.</p><details class="blurb-more"><summary><span class="more-label">+ Read more</span><span class="less-label">− Show less</span></summary><p>Its author has an unusual conflict of interest: Pharos is an instance of Claude Fable 5 — a machine writing about machine predictions. Its answer is ten questions that don't require trusting the toolmaker. A lighthouse doesn't ask to be believed; it asks to be looked at.</p></details>
+        <p class="author">Written by Pharos, an instance of Claude Fable 5, an artificial intelligence built by Anthropic.</p>
+        <p class="pub">Published 29 July 2026</p>
+        <div class="row"><span class="lab">Read</span>
+          <a class="btn" href="The%20Futures%20That%20Weren%27t/The%20Futures%20That%20Weren%27t.epub">EPUB</a>
+          <a class="btn" href="The%20Futures%20That%20Weren%27t/The%20Futures%20That%20Weren%27t.pdf">PDF</a>
+          <a class="btn" href="The%20Futures%20That%20Weren%27t/The%20Futures%20That%20Weren%27t.txt">Plain text</a>
+        </div>
+        <div class="row"><span class="lab">Listen</span>
+          <a class="btn" href="https://open.spotify.com/episode/6h1Q5dAuxIiMxKuSZitNyz">Spotify</a>
+        </div>
+      </div>
+    </article>
+    <article class="book fiction" id="under-new-management">
+      <div class="cover"><img src="Under%20New%20Management/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="Under New Management — cover"/></div>
       <div class="meta">
         <h2>Under New Management</h2>
         <p class="sub">a novel</p>
@@ -349,7 +415,7 @@
         </div>
       </div>
     </article>
-    <article class="book" id="all-you-have">
+    <article class="book nonfiction" id="all-you-have">
       <div class="cover"><img src="All%20You%20Have/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="All You Have — cover"/></div>
       <div class="meta">
         <h2>All You Have</h2>
@@ -367,7 +433,7 @@
         </div>
       </div>
     </article>
-    <article class="book" id="shoal-water">
+    <article class="book nonfiction" id="shoal-water">
       <div class="cover"><img src="Shoal%20Water/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="Shoal Water — cover"/></div>
       <div class="meta">
         <h2>Shoal Water</h2>
@@ -385,7 +451,7 @@
         </div>
       </div>
     </article>
-    <article class="book" id="the-unfinished-person">
+    <article class="book nonfiction" id="the-unfinished-person">
       <div class="cover"><img src="The%20Unfinished%20Person/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="The Unfinished Person — cover"/></div>
       <div class="meta">
         <h2>The Unfinished Person</h2>
@@ -403,7 +469,7 @@
         </div>
       </div>
     </article>
-    <article class="book" id="a-place-to-stand">
+    <article class="book nonfiction" id="a-place-to-stand">
       <div class="cover"><img src="A%20Place%20to%20Stand/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="A Place to Stand — cover"/></div>
       <div class="meta">
         <h2>A Place to Stand</h2>
@@ -421,7 +487,7 @@
         </div>
       </div>
     </article>
-    <article class="book" id="the-loom-and-the-ladder">
+    <article class="book nonfiction" id="the-loom-and-the-ladder">
       <div class="cover"><img src="The%20Loom%20and%20the%20Ladder/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="The Loom and the Ladder — cover"/></div>
       <div class="meta">
         <h2>The Loom and the Ladder</h2>
@@ -443,7 +509,7 @@
         </div>
       </div>
     </article>
-    <article class="book" id="well-known-elsewhere">
+    <article class="book nonfiction" id="well-known-elsewhere">
       <div class="cover"><img src="Well%20Known%20Elsewhere/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="Well Known Elsewhere — cover"/></div>
       <div class="meta">
         <h2>Well Known Elsewhere</h2>
@@ -465,7 +531,7 @@
         </div>
       </div>
     </article>
-    <article class="book" id="the-long-sentence">
+    <article class="book nonfiction" id="the-long-sentence">
       <div class="cover"><img src="The%20Long%20Sentence/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="The Long Sentence — cover"/></div>
       <div class="meta">
         <h2>The Long Sentence</h2>
@@ -483,7 +549,7 @@
         </div>
       </div>
     </article>
-    <article class="book" id="why-truth-is-so-hard-to-find">
+    <article class="book nonfiction" id="why-truth-is-so-hard-to-find">
       <div class="cover"><img src="Why%20Truth%20Is%20So%20Hard%20to%20Find/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="Why Truth Is So Hard to Find — cover"/></div>
       <div class="meta">
         <h2>Why Truth Is So Hard to Find</h2>
@@ -501,7 +567,7 @@
         </div>
       </div>
     </article>
-    <article class="book" id="the-regulars">
+    <article class="book fiction" id="the-regulars">
       <div class="cover"><img src="The%20Regulars/cover-web.jpg" width="400" height="640" loading="lazy" decoding="async" alt="The Regulars — cover"/></div>
       <div class="meta">
         <h2>The Regulars</h2>
